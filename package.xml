@@ -13,12 +13,12 @@
         <name>Layout</name>
     </types>
     <types>
-        <members>Employee__c.All</members>
-        <name>ListView</name>
+        <members>CEOPermissionSet</members>
+        <name>PermissionSet</name>
     </types>
     <types>
-        <members>Employee__c</members>
-        <name>SharingRules</name>
+        <members>CEO</members>
+        <name>Profile</name>
     </types>
     <version>64.0</version>
 </Package>
