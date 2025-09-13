@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>true</custom>
+    <layoutAssignments>
+        <layout>Employee__c-Employee Layout</layout>
+    </layoutAssignments>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Employee__c</object>
+        <viewAllFields>false</viewAllFields>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>

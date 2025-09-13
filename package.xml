@@ -12,5 +12,13 @@
         <members>Employee__c-Employee Layout</members>
         <name>Layout</name>
     </types>
+    <types>
+        <members>CEOPermissionSet</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>CEO</members>
+        <name>Profile</name>
+    </types>
     <version>64.0</version>
 </Package>
