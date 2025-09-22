@@ -13,6 +13,10 @@ public with sharing class GitHubTrigger {
         HttpResponse res = http.send(req);
         System.debug('Status: ' + res.getStatusCode());
         System.debug('Body: ' + res.getBody());
-        System.debug('Body: ' + res.getBody());
+        
+        Http http2 = new Http();
+        HttpResponse res2 = http2.send(req);
+        System.debug('Status: ' + res2.getStatusCode());
+        System.debug('Body: ' + res2.getBody());
     }
 }
