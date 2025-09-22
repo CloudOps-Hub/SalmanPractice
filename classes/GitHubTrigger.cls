@@ -1,7 +1,5 @@
 public with sharing class GitHubTrigger {
     @future(callout=true)
-    //Dev2 Commit
-    //Dev2 Commit2
     public static void triggerWorkflow() {
         HttpRequest req = new HttpRequest();
         req.setEndpoint('callout:GitHub/repos/CloudOps-Hub/VisualPath_CICD/actions/workflows/post-deployment.yml/dispatches');
@@ -15,6 +13,10 @@ public with sharing class GitHubTrigger {
         HttpResponse res = http.send(req);
         System.debug('Status: ' + res.getStatusCode());
         System.debug('Body: ' + res.getBody());
-        //Test Git hub Recommit
+        
+        Http http2 = new Http();
+        HttpResponse res2 = http2.send(req);
+        System.debug('Status: ' + res2.getStatusCode());
+        System.debug('Body: ' + res2.getBody());
     }
 }
