@@ -4,5 +4,9 @@
         <members>GitHubTrigger</members>
         <name>ApexClass</name>
     </types>
+    <types>
+        <members>Employee__c-Employee Layout</members>
+        <name>Layout</name>
+    </types>
     <version>64.0</version>
 </Package>
