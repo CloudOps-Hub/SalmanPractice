@@ -2,11 +2,13 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>GitHubTrigger</members>
+        <members>PostCopyClass</members>
+        <members>TestPage</members>
         <name>ApexClass</name>
     </types>
     <types>
-        <members>Employee__c-Employee Layout</members>
-        <name>Layout</name>
+        <members>Testpage</members>
+        <name>ApexPage</name>
     </types>
     <version>64.0</version>
 </Package>
